@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building a CLI Data Gem for National Parks API"
-date:       2020-01-20 17:52:44 +0000
+date:       2020-01-20 12:52:45 -0500
 permalink:  building_a_cli_data_gem_for_national_parks_api
 ---
 
@@ -10,7 +10,7 @@ Completing my first code project for Flatiron School was a big step in my journe
 
 ### The Key Thing About API's
 
-The first step in the project was choosing a source of data to interact with. Because I live near Shenandoah National Park and love to go hiking there every week, I searched for "Free API National Parks" and found that the National Park Service has created an API of its own with great documentation (https://www.nps.gov/subjects/developer/api-documentation.htm). The purpose of this API is to create a single source of truth for the entire National Park Service in order to provide up to date information about Parks, their hours, weather, conditions, addresses, campgrounds, and even staff. I can see this being a really great tool for keeping various informational websites to stay up to date, and also for the many businesses that operate in and around national parks, providing tours and other services. 
+The first step in the project was choosing a source of data to interact with. Because I live near Shenandoah National Park and love to go hiking there every week, I searched for "Free API National Parks" and found that the National Park Service has created an API of its own with great documentation ([https://www.nps.gov/subjects/developer/api-documentation.htm]). The purpose of this API is to create a single source of truth for the entire National Park Service in order to provide up to date information about Parks, their hours, weather, conditions, addresses, campgrounds, and even staff. I can see this being a really great tool for keeping various informational websites to stay up to date, and also for the many businesses that operate in and around national parks, providing tours and other services. 
 
 The first challenge for me, was to figure out how to access the data from my program. So, I signed up to acquire a free API key and read through the documentation to figure out how to access it. This particular API has an option that allows you to append the API key to the end of a secure http request and receive JSON data. I was able to use this technique and modify the url to learn how the data was structured just using my browser before I wrote any code.
 
