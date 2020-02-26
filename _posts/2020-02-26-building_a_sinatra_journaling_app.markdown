@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building a Sinatra Journaling App"
-date:       2020-02-26 15:45:45 +0000
+date:       2020-02-26 10:45:46 -0500
 permalink:  building_a_sinatra_journaling_app
 ---
 
@@ -14,15 +14,15 @@ Something I have always struggled with is creating a consistent journaling pract
 
 To begin this process, I had to learn how to build the basic working scaffold for a Sinatra Application. The most helpful way to understand this is to clearly understand the order in which Sinatra Files are read and utilized by Ruby. Once you understand this, everything makes a lot more sense:
 
-##### 1. config.ru
+#### 1. config.ru
 
 The first file that gets read is config.ru which is the configuration file for your Rack server interface. A server interface is essentially the program that allows your program to respond to and make HTTP requests. This is also the first thing that runs before any of the programmed interactions happen, so if you need to load in dependencies or pre-process any data this is the place to do it. My confg.ru contained a require link to my environment file, my SASS CSS pre-processor, a specific Rack override method that enabled me to use HTTP methods Patch and Delete in addition to the standard GET and POST. And mounting the controllers. The last line of your config.ru file should always Run your application controller, the thing that turns those HTTP requests into meaningful routes. 
 
-##### 2. environment.rb
+#### 2. environment.rb
 
 Your environment is the the first thing loaded by config.ru, so it needs to make sure all of your gems are loaded (do this by using bundler and a Gemfile), that ActiveRecord has established it's connection to your database, and that every part of your program knows where to find the other parts of the app (Accomplish this easily by using the require_all gem but note that this method does not allow you to controll the order that modules and dependencies are loaded so you wil need to be explicit abou this when necessary). 
 
-##### 3. Gemfile 
+#### 3. Gemfile 
 
 Here is a list of essential gems for a Sinatra MVC / CRUD application and what each of them does:
 
@@ -39,7 +39,7 @@ I used a few more gems for my project, but they are not essential depending on t
 * require_all - allows you to require multiple files in one line of code
 * sass - allows you to use the CSS preprocessor SASS
 
-##### 4. Models Views and Controllers
+#### 4. Models Views and Controllers
 
 You will need to create your Models, Views and Controllers to add functionality to your app. But in keeping with our sequential based explanation it's helpful to think of it this way:
 
