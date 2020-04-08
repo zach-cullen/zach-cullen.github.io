@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building a Workout App with Ruby on Rails"
-date:       2020-04-08 02:05:58 +0000
+date:       2020-04-07 22:05:59 -0400
 permalink:  building_a_workout_app_with_ruby_on_rails
 ---
 
