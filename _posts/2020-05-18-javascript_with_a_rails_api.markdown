@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript with a Rails API"
-date:       2020-05-18 14:57:30 +0000
+date:       2020-05-18 10:57:31 -0400
 permalink:  javascript_with_a_rails_api
 ---
 
@@ -75,3 +75,5 @@ Here's a bit of code showing the implementation of the shuffler in action, where
   }
 
 ```
+
+Overall this was a really fun project and I can't wait to learn React!
