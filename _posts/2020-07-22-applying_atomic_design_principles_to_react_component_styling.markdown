@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Applying Atomic Design Principles to React Component Styling"
-date:       2020-07-22 20:58:22 +0000
+title:      "Applying Atomic Design Principles to React"
+date:       2020-07-22 16:58:23 -0400
 permalink:  applying_atomic_design_principles_to_react_component_styling
 ---
 
