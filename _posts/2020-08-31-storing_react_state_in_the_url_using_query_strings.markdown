@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Storing React State in the URL using Query Strings"
-date:       2020-09-01 03:45:26 +0000
+date:       2020-08-31 23:45:26 -0400
 permalink:  storing_react_state_in_the_url_using_query_strings
 ---
 
